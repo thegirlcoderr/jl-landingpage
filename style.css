@@ -3,9 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 /* Header/Navbar */
 .header {
   display: flex;
+  justify-content: space-between;
   padding: 16px;
   margin: 40px;
   color: rgb(110, 110, 235);
@@ -172,11 +179,40 @@ button {
 }
 
 /* Contact */
-.contact-form {
+/* .contact-form {
   border: 2px solid rgb(110, 110, 235);
   margin: 32px;
   padding: 30px;
   height: 400px;
   width: 500px;
   margin-top: 300px;
+} */
+.contact-form {
+  border: 2px solid rgb(110, 110, 235);
+  height: 550px;
+  width: 600px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.contact-form input {
+  border: none;
+  border-bottom: 2px solid rgb(110, 110, 235);
+  margin-bottom: 16px;
+  outline: none;
+  margin-top: 80px;
+  width: 500px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.contact-form input::placeholder {
+  color: rgb(110, 110, 235);
+}
+.contact-form button {
+  width: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
