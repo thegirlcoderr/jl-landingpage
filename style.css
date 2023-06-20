@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Header/Navbar */
+.header {
+  display: flex;
+  padding: 16px;
+  margin: 40px;
+  color: rgb(110, 110, 235);
+}
+
+.icon {
+  display: flex;
+  flex: 1;
+}
+.logo {
+  width: 50%;
+}
+
+.navbar {
+  padding: 16px;
+  display: flex;
+  flex: 1;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navbar span {
+  flex: 1;
+}
+
+p {
+  padding-top: 15px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* About */
+.author {
+  display: flex;
+  justify-content: center;
+  margin: 64px;
+  color: rgb(110, 110, 235);
+}
+.about {
+  display: flex;
+}
+
+.details {
+  padding-top: 32px;
+  margin-left: 40px;
+}
+h1,
+h2,
+h3 {
+  padding: 10px;
+}
+.author img {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+button {
+  background-color: rgb(110, 110, 235);
+  color: white;
+
+  border-radius: 5px;
+  font-size: large;
+}
+.author button {
+  padding: 20px;
+}
+
+/* work div */
+.work {
+  padding-top: 120px;
+  margin: 40px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.website {
+  margin: 10px;
+  color: rgb(110, 110, 235);
+}
+.website p {
+  font-size: 40px;
+}
+.buttons {
+  padding: 20px;
+  margin-top: 10px;
+}
+.buttonz {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+  color: rgb(110, 110, 235);
+  border: 2px solid rgb(110, 110, 235);
+}
+.box {
+  display: flex;
+  border: 1px solid rgb(110, 110, 235);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.headline {
+  padding-top: 10px;
+  font-size: small;
+  color: rgb(110, 110, 235);
+}
+.login {
+  padding-top: 10px;
+  margin-top: 30px;
+  font-size: x-small;
+  color: black;
+}
+.login button {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.flyer {
+  margin-left: 10px;
+}
+.agency {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.explore img {
+  border-radius: 5px;
+
+  border: 2px solid rgb(110, 110, 235);
+}
+.travel {
+  margin-left: 50px;
+  padding: 30px;
+  color: rgb(110, 110, 235);
+}
+.webtravel p {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Blog */
+
+.blog {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+.blog img {
+  border-radius: 5px;
+}
+.h3 {
+  font-size: x-large;
+}
+.designer {
+  margin-left: 30px;
+}
+.content {
+  width: 350px;
+}
+.content p {
+  font-weight: lighter;
+  color: rgb(171, 171, 160);
+}
+
+/* Contact */
+.contact-form {
+  border: 2px solid rgb(110, 110, 235);
+  margin: 32px;
+  padding: 30px;
+  height: 400px;
+  width: 500px;
+  margin-top: 300px;
+}
