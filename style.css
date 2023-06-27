@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* .main-container {
+.main-container {
   display: flex;
-  align-items: center;
+
   flex-direction: column;
-} */
+}
 /* Header/Navbar */
 .header {
   display: flex;
@@ -56,7 +56,9 @@
 }
 .aboutp {
   transform: rotate(-90deg);
-  margin-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 80px;
 }
 .details {
   display: flex;
@@ -87,17 +89,24 @@ button {
 
 /* work div */
 .work {
-  padding-top: 120px;
-  margin: 40px;
+  display: flex;
+  gap: 5rem;
+  color: rgb(110, 110, 235);
+}
+.workp {
+  transform: rotate(90deg);
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px;
 }
 .info {
   display: flex;
-  justify-content: space-between;
 }
 .website {
   margin: 10px;
   color: rgb(110, 110, 235);
 }
+
 .website p {
   font-size: 40px;
 }
@@ -140,7 +149,7 @@ button {
 }
 .agency {
   display: flex;
-  justify-content: center;
+
   margin-top: 150px;
 }
 .explore img {
