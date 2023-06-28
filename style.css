@@ -5,7 +5,6 @@
 }
 .main-container {
   display: flex;
-
   flex-direction: column;
 }
 /* Header/Navbar */
@@ -79,7 +78,6 @@ h3 {
 button {
   background-color: rgb(110, 110, 235);
   color: white;
-
   border-radius: 5px;
   font-size: large;
 }
@@ -95,6 +93,7 @@ button {
 }
 .workp {
   transform: rotate(90deg);
+
   font-size: 50px;
   font-weight: bold;
   padding: 20px;
@@ -149,7 +148,6 @@ button {
 }
 .agency {
   display: flex;
-
   margin-top: 150px;
 }
 .explore img {
@@ -168,12 +166,22 @@ button {
   font-weight: bold;
 }
 
-/* Blog */
+/* Blog div */
 
 .blog {
   display: flex;
-  justify-content: center;
+  gap: 5rem;
   padding-top: 200px;
+}
+.blogdeets {
+  display: flex;
+}
+.blogp {
+  transform: rotate(-90deg);
+  color: rgb(110, 110, 235);
+  font-size: 50px;
+  font-weight: bold;
+  padding: 100px;
 }
 .blog img {
   border-radius: 5px;
@@ -191,12 +199,23 @@ button {
   font-weight: lighter;
   color: rgb(171, 171, 160);
 }
-
+/* contact div */
+.contact {
+  display: flex;
+  gap: 2rem;
+  margin-top: 200px;
+}
+.contactp {
+  transform: rotate(-90deg);
+  color: rgb(110, 110, 235);
+  font-size: 50px;
+  font-weight: bold;
+  padding: 100px;
+}
 .contact-form {
   border: 2px solid rgb(110, 110, 235);
   height: 550px;
-  width: 600px;
-  margin-top: 200px;
+  width: 700px;
   display: flex;
   justify-content: center;
   flex-direction: column;
